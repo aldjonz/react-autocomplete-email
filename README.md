@@ -22,7 +22,7 @@ npm install react-autocomplete-email --save
 
 ## Basic Usage
 
-```react
+```jsx
 
 /* Import useState and useRef from React and import package */
 
@@ -52,9 +52,9 @@ export default App;
 
 ## Configuration Example (Custom Domain Lists)
 
-```react
+```jsx
 
- /* A "domains" prop is added to the component and references the array of domains within the data property below */
+/* A "domains" prop is added to the component and references the array of domains within the data property below */
 
 /* Import useState and useRef from React and import package */
 
@@ -95,7 +95,7 @@ export default App;
 
 ## Configuration Example (On Submit Callbacks)
 
-```react
+```jsx
 
 /* An "onSubmit" prop is added to the component and references a method below */
 
@@ -133,7 +133,7 @@ export default App;
 
 ## Configuration Example (Custom Inline Styles)
 
-```react
+```jsx
 
 /* A "css" prop is added to the component and references a computed property below */
 

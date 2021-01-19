@@ -1,4 +1,4 @@
-.App {
+.react-auto-complete-email {
   width: fit-content;
   height: fit-content;
   margin: auto;
@@ -10,7 +10,7 @@
   display: flex;
   margin-top: 300px;
 }
-input {
+.react-auto-complete-email input {
   padding: 14px;
   margin-bottom: 14px;
   width: 200px;
@@ -20,12 +20,12 @@ input {
   transition-duration: .2s;
   font-size: 16px;
 }
-input:focus {
+.react-auto-complete-email input:focus {
   border: 1px solid cornflowerblue;
   outline: none;
   transform: scale(1.1);
 }
-button {
+.react-auto-complete-email button {
   padding: 10px;
   width: 100px;
   background: rgba(204,204,204,0.2);
@@ -36,44 +36,44 @@ button {
   transition-duration: .2s;
   outline: none;
 }
-button:hover {
+.react-auto-complete-email button:hover {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
   border: 1px solid cornflowerblue;
   transform: scale(1.1);
 }
 
-/* Move into emailAutoComplete as inline styles??? */
+/* Autocomplete email css */
 .auto-complete-container {
     position: relative;
   }
-  .auto-complete-overlay {
-    border-radius: 2px;
-    z-index: 10;
-    position: absolute;
-    width: 100%;
-    top: 100%;
-    /* background: coral; */
-    background-color: #FCFCFC;
-    border: 1px solid hsl(0, 0%, 93%);
-  }
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  li {
-    padding: 12px 15px 12px 15px;
-    cursor: pointer;
-    border-bottom: 1px solid #EDEDED;
-    will-change: background-color;
-    transition: background-color .2s ease-in-out;
-  }
-  li.selected {
-    background-color: #F3F3F3;
-  }
-  li:last-child {
-    border: none;
-  }
-  .auto-complete-overlay span.completion {
-    color: #0787ad;
-  }
+.auto-complete-container .auto-complete-overlay {
+  border-radius: 2px;
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  /* background: coral; */
+  background-color: #FCFCFC;
+  border: 1px solid hsl(0, 0%, 93%);
+}
+.auto-complete-overlay ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.auto-complete-overlay li {
+  padding: 12px 15px 12px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #EDEDED;
+  will-change: background-color;
+  transition: background-color .2s ease-in-out;
+}
+.auto-complete-overlay li.selected {
+  background-color: #F3F3F3;
+}
+.auto-complete-overlay li:last-child {
+  border: none;
+}
+.auto-complete-overlay span.completion {
+  color: #0787ad;
+}

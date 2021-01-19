@@ -4,7 +4,6 @@ import './emailAutoComplete.css';
 const EmailAutoComplete = forwardRef((props, ref) => {
     // data
     const [inputVal, setInputVal] = useState('');
-    // const [inputEle, setInputEle] = useState(null);
     const [overlayVisible, setOverlayVisible] = useState(false);
     const [actionKeys] = useState([38,40,13,27]);
     const [matches, setMatches] = useState([]);
@@ -67,7 +66,6 @@ const EmailAutoComplete = forwardRef((props, ref) => {
             } 
 
             const ele = e.target;
-            // setInputEle(e.target);
             setInputVal(ele.value);
 
             resetMatches();
@@ -291,7 +289,6 @@ const EmailAutoComplete = forwardRef((props, ref) => {
     // Lifecycle Hooks
 
     useEffect(() => {
-        // before overlay is rendered ref = null because it doesn't exist: Find Out Why
 
         const outsideComponentClick = (e, ref) => {
 
@@ -345,28 +342,6 @@ const EmailAutoComplete = forwardRef((props, ref) => {
 // Props
 EmailAutoComplete.defaultProps = {
 
-    // css: {
-    //     type: Object,
-    //     required: false,
-    //     default: null
-    // },
-
-    // onCompletion: {
-    //     type: Function,
-    //     required: true
-    // },
-    
-    // onSubmit: {
-    //     type: Function,
-    //     required: false,
-    //     default: null
-    // },
-
-    // domains: {
-    //     type: Array,
-    //     required: false,
-    //     default: null
-    // },
 }
 
 export default EmailAutoComplete;

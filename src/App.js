@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react';
 
-import './App.css';
 import EmailAutoComplete from './components/react-autocomplete-email.js';
 
 function App() {

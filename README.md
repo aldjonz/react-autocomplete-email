@@ -1,8 +1,6 @@
 # react-autocomplete-email
 A configurable &amp; lightweight React wrapper component that enables "out of the box" email autocomplete/suggestions on input elements.
 
-![Autocomplete in Action](https://github.com/jameswylie/vue-email-autocomplete/blob/main/docs/images/vue-email-autocomplete.gif?raw=true)
-
 ✅ A wrapper component so you can use alongside other form enabled libraries (such as Buefy).\
 ✅ Customizable.\
 ✅ Allow users to easily navigate the suggestions list by simply using the "up/down" keys.\

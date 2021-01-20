@@ -1,7 +1,13 @@
 {
-  "name": "react-email-autocomplete",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-autocomplete-email",
+  "description": "A configurable & lightweight React email wrapper component that enables 'out of the box' email autocomplete/suggestions on input elements.",
+  "version": "1.0.0",
+  "main": "src/components/react-autocomplete-email.js",
+  "bin": "src/components/react-autocomplete-email.js",
+  "author": {
+    "name": "Aled Jones"
+  },
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -11,6 +17,14 @@
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldjonz/react-autocomplete-email.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aldjonz/react-autocomplete-email/issues"
+  },
+  "homepage": "https://github.com/aldjonz/react-autocomplete-email#readme",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

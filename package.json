@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "main": "src/components/react-autocomplete-email.js",
   "bin": "src/components/react-autocomplete-email.js",
+  "files": [
+    "dist/react-autocomplete-email.js",
+    "dist/emailAutoComplete.css"
+  ],
   "author": {
     "name": "Aled Jones"
   },

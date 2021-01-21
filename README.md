@@ -6,7 +6,7 @@ A configurable &amp; lightweight React wrapper component that enables "out of th
 ✅ Allow users to easily navigate the suggestions list by simply using the "up/down" keys.\
 ✅ Users can also auto-fill the input with the desired value by hitting the "enter" key upon selection.
 
-Check out the Vue.js version here: [a link](https://www.npmjs.com/package/vue-email-autocomplete) 
+Check out the Vue.js version [here.](https://www.npmjs.com/package/vue-email-autocomplete) 
 
 ## Installation
 

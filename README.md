@@ -28,7 +28,7 @@ npm install react-autocomplete-email --save
 /* Import useState and useRef from React and import package */
 
 import React, { useState, useRef } from 'react';
-import EmailAutoComplete from './components/EmailAutoComplete';
+import EmailAutoComplete from 'react-autocomplete-email';
 
 function App() {
 
@@ -60,7 +60,7 @@ export default App;
 /* Import useState and useRef from React and import package */
 
 import React, { useState, useRef } from 'react';
-import EmailAutoComplete from './components/EmailAutoComplete';
+import EmailAutoComplete from 'react-autocomplete-email';
 
 function App() {
 
@@ -103,7 +103,7 @@ export default App;
 /* Import useState and useRef from React and import package */
 
 import React, { useState, useRef } from 'react';
-import EmailAutoComplete from './components/EmailAutoComplete';
+import EmailAutoComplete from 'react-autocomplete-email';
 
 function App() {
 
@@ -142,7 +142,7 @@ export default App;
 /* Import useState and useRef from React and import package */
 
 import React, { useState, useRef } from 'react';
-import EmailAutoComplete from './components/EmailAutoComplete';
+import EmailAutoComplete from 'react-autocomplete-email';
 
 function App() {
 

@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'production',
-  entry: './src/components/react-autocomplete-email.js',
+  entry: './src/react-autocomplete-email.js',
   output: {
     path: path.resolve('dist'),
     filename: 'react-autocomplete-email.js',

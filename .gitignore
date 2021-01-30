@@ -11,6 +11,10 @@
 # production
 /build
 
+# local env files
+.env.local
+.env.*.local
+
 # misc
 .DS_Store
 .env.local
@@ -23,3 +27,4 @@ yarn-debug.log*
 yarn-error.log*
 
 .eslintcache
+/dist

@@ -3,9 +3,10 @@
   "description": "A configurable & lightweight React email wrapper component that enables 'out of the box' email autocomplete/suggestions on input elements.",
   "version": "1.1.2",
   "main": "dist/react-autocomplete-email.js",
-  "bin": "dist/react-autocomplete-email.js",
+  "style": "dist/react-autocomplete-email.css",
   "files": [
-    "dist/react-autocomplete-email.js"
+    "dist/react-autocomplete-email.js",
+    "dist/react-autocomplete-email.css"
   ],
   "author": {
     "name": "Aled Jones"

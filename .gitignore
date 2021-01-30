@@ -36,4 +36,3 @@ yarn-debug.log*
 yarn-error.log*
 
 .eslintcache
-/dist

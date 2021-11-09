@@ -40,7 +40,7 @@ function App() {
   return (
       
     <EmailAutoComplete ref={emailAutoCompleteRef} onCompletion={val => setInputVal(val)}>
-      <input type="text" value={inputVal} onChange={(e) => setInputVal(e.target.value)} onKeyDown={(e) => emailAutoCompleteRef.current.check(e)} />
+      <input type="text" value={inputVal} onChange={(e) => {setInputVal(e.target.value); emailAutoCompleteRef.current.change(e)}} onKeyDown={(e) => emailAutoCompleteRef.current.check(e)} />
     </EmailAutoComplete>
     
   );
@@ -83,7 +83,7 @@ function App() {
   return (
 
     <EmailAutoComplete ref={emailAutoCompleteRef} onCompletion={val => setInputVal(val)} domains={customDomains}>
-      <input type="text" name="email" placeholder="Email..." value={inputVal} onChange={(e) => setInputVal(e.target.value)} onKeyDown={(e) => emailAutoCompleteRef.current.check(e)} />
+      <input type="text" name="email" placeholder="Email..." value={inputVal} onChange={(e) => {setInputVal(e.target.value); emailAutoCompleteRef.current.change(e)}} onKeyDown={(e) => emailAutoCompleteRef.current.check(e)} />
     </EmailAutoComplete>
     
   );
@@ -121,7 +121,7 @@ function App() {
   return (
       
     <EmailAutoComplete ref={emailAutoCompleteRef} onCompletion={val => setInputVal(val)} onSubmit={() => validateForm()}>
-      <input type="text" value={inputVal} onChange={(e) => setInputVal(e.target.value)} onKeyDown={(e) => emailAutoCompleteRef.current.check(e)} />
+      <input type="text" value={inputVal} onChange={(e) => {setInputVal(e.target.value); emailAutoCompleteRef.current.change(e)}} onKeyDown={(e) => emailAutoCompleteRef.current.check(e)} />
     </EmailAutoComplete>
     
   );
@@ -187,7 +187,7 @@ function App() {
   return (
       
     <EmailAutoComplete ref={emailAutoCompleteRef} onCompletion={val => setInputVal(val)} css={styleOverrides}>
-      <input type="text" value={inputVal} onChange={(e) => setInputVal(e.target.value)} onKeyDown={(e) => emailAutoCompleteRef.current.check(e)} />
+      <input type="text" value={inputVal} onChange={(e) => {setInputVal(e.target.value); emailAutoCompleteRef.current.change(e)}} onKeyDown={(e) => emailAutoCompleteRef.current.check(e)} />
     </EmailAutoComplete>
     
   );

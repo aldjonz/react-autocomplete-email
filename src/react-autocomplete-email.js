@@ -54,23 +54,24 @@ const EmailAutoComplete = forwardRef((props, ref) => {
 
     // Methods
 
-    useImperativeHandle(ref, (e) => ({
+    useImperativeHandle(ref, () => ({
 
         check(e) {
 
             if(isActionKey(e.keyCode)) {
 
                 invokeAction(e, e.keyCode);
-                return
 
             }
 
-            const ele = e.target;
-            setInputVal(ele.value);
+        },
+        change(e) {
+
+            setInputVal(e.target.value);
 
             resetMatches();
 
-            filterVendors(ele.value);
+            filterVendors(e.target.value);
 
         }
 
